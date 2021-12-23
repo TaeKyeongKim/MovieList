@@ -10,7 +10,7 @@ class MovieModel : ObservableObject{
     @Published var movies = [Movie]()
     
     init(){
-        
+        //Git hub pull test
         self.movies = DataService.getLocalData()
         
     }
